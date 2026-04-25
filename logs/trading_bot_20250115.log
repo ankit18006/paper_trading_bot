@@ -1,0 +1,20 @@
+2025-01-15 11:00:01 | INFO     | cli | Command: price
+2025-01-15 11:00:01 | INFO     | market | Live price for BTCUSDT: $95312.40
+
+2025-01-15 11:01:15 | INFO     | cli | Command: order
+2025-01-15 11:01:15 | INFO     | market | Live price for BTCUSDT: $95318.70
+2025-01-15 11:01:15 | INFO     | paper_engine | Order #1 FILLED | BUY MARKET 0.0010 BTCUSDT @ $95318.70 | cost=$95.32
+2025-01-15 11:01:15 | DEBUG    | paper_engine | Saved state: balance=9904.68, orders=1
+
+2025-01-15 11:03:40 | INFO     | cli | Command: order
+2025-01-15 11:03:40 | INFO     | market | Live price for BTCUSDT: $95290.10
+2025-01-15 11:03:40 | INFO     | paper_engine | Limit order #2 placed OPEN @ $94000.00 (live=$95290.10)
+2025-01-15 11:03:40 | DEBUG    | paper_engine | Saved state: balance=9904.68, orders=2
+
+2025-01-15 11:05:22 | INFO     | cli | Command: order
+2025-01-15 11:05:22 | INFO     | market | Live price for BTCUSDT: $95210.50
+2025-01-15 11:05:22 | INFO     | paper_engine | Stop order #3 placed OPEN, trigger=$96000.00 (live=$95210.50)
+
+2025-01-15 11:08:01 | INFO     | cli | Command: check
+2025-01-15 11:08:01 | INFO     | market | Live price for BTCUSDT: $94001.20
+2025-01-15 11:08:01 | INFO     | paper_engine | Order #2 FILLED | BUY LIMIT 0.0010 BTCUSDT @ $94000.00 | cost=$94.00
