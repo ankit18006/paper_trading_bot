@@ -158,22 +158,6 @@ requests>=2.31.0
 
 No Binance SDK. No API key. Just `requests` and live public prices.
 
+Order #1 FILLED | BUY MARKET 0.001 BTCUSDT @ $77,561.15
 
-## Sample Logs (Live Render Deployment)
-
-### MARKET Order — BUY FILLED
-
-2026-04-25 08:17:20 | INFO | cli | Command: order
-2026-04-25 08:17:20 | INFO | market | Live price for BTCUSDT: $77561.15
-2026-04-25 08:17:20 | INFO | paper_engine | Order #1 FILLED | BUY MARKET 0.0010 BTCUSDT @ $77561.15 | cost=$77.56
-✓ Order FILLED
-
-
-
-### LIMIT Order — SELL OPEN
-2026-04-25 08:24:13 | INFO | cli | Command: order
-2026-04-25 08:24:13 | INFO | market | Live price for BTCUSDT: $77555.87
-2026-04-25 08:24:13 | INFO | paper_engine | Limit order #1 placed OPEN @ $85000.00 (live=$77555.87)
-⏳ Order OPEN!
-
-
+Limit order #1 placed OPEN @ $85,000.00 (live=$77,636.97)
